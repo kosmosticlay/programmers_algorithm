@@ -74,3 +74,13 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+<hr>
+
+### 모범 답안
+```
+function solution(number, n, m) {
+  return +!(number % n || number % m);
+}
+```
+- `+` 연산자는 불리언 값을 숫자로 변환
